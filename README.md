@@ -24,7 +24,10 @@ Automated-Testing
 
 <h3>Best practice</h3>
 
-Page Object Models
+<b>Page Object Models</b>
 
 Page Object is a Design Pattern which has become popular in test automation for enhancing test maintenance and reducing code duplication.<br> A page object is an object-oriented class that serves as an interface to a page of your AUT. <br>The tests then use the methods of this page object class whenever they need to interact with that page of the UI. The benefit is that if the UI changes for the page, the tests themselves don’t need to change, only the code within the page object needs to change.Subsequently all changes to support that new UI are located in one place.
 
+<b>Thucydides and Selenium WebDriver</b>
+
+Thucydides takes WebDriver to the next level, making it easier to structure and organize your web tests using modular, reusable components. Thucydides is an exciting new open source library that lets you use Selenium 2/WebDriver to write more flexible and more reusable automated web tests, and also to generate documentation and reporting about your acceptance tests, including a narrative descriptions, screen shots, and project progress reports.
