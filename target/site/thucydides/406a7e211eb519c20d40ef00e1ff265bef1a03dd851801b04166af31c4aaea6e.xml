@@ -1,0 +1,37 @@
+<acceptance-test-run title="Sign up with email" name="sign_up_with_email" steps="4" successful="1" failures="0" errors="1" skipped="2" ignored="0" pending="0" annotated-result="ERROR" result="ERROR" duration="33318" timestamp="2014-12-02T16:57:27.993+02:00">
+  <user-story id="Joust.requirements.Application.Search.SearchByKeyword" name="Search by keyword" path="Joust.requirements.Application.Search">
+    <feature id="Joust.requirements.Application.Search" name="Search"/>
+  </user-story>
+  <tags>
+    <tag name="Search" type="feature"/>
+    <tag name="Search by keyword" type="story"/>
+  </tags>
+  <test-step result="SUCCESS" duration="2400">
+    <screenshots>
+      <screenshot image="ee87017e87ea7ec845514aed8652f3e0_NONE.png"/>
+      <screenshot image="daf97f411981405af9a44637e0196068_NONE.png"/>
+    </screenshots>
+    <description>Is the sign up page</description>
+  </test-step>
+  <test-step result="ERROR" duration="30771">
+    <screenshots>
+      <screenshot image="ee87017e87ea7ec845514aed8652f3e0_NONE.png"/>
+    </screenshots>
+    <description>Enters users credentials: &lt;span class=&apos;step-parameter&apos;&gt;email1417532203848@gmail.com, password123&lt;/span&gt;</description>
+    <error>Expected enabled element was not enabled
+Build info: version: &apos;2.43.1&apos;, revision: &apos;5163bceef1bc36d43f3dc0b83c88998168a363a0&apos;, time: &apos;2014-09-10 09:43:55&apos;
+System info: host: &apos;zhanna-laptop&apos;, ip: &apos;10.1.7.222&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_25&apos;
+Driver info: driver.version: unknown</error>
+    <exception>org.openqa.selenium.ElementNotVisibleException:Expected enabled element was not enabled
+Build info: version: &apos;2.43.1&apos;, revision: &apos;5163bceef1bc36d43f3dc0b83c88998168a363a0&apos;, time: &apos;2014-09-10 09:43:55&apos;
+System info: host: &apos;zhanna-laptop&apos;, ip: &apos;10.1.7.222&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_25&apos;
+Driver info: driver.version: unknown&#xd;
+[com.sun.proxy.$Proxy18.type(Unknown Source), Joust.pages.SignUpPage.enter_email(SignUpPage.java:75), Joust.steps.EndUserSteps.enters_users_credentials(EndUserSteps.java:78), Joust.AuthorizationTest.sign_up_with_email(AuthorizationTest.java:69)]</exception>
+  </test-step>
+  <test-step result="SKIPPED" duration="75">
+    <description>Enters first last names: &lt;span class=&apos;step-parameter&apos;&gt;test1417532203848, test1417532203848&lt;/span&gt;</description>
+  </test-step>
+  <test-step result="SKIPPED" duration="44">
+    <description>Should be logged in: &lt;span class=&apos;step-parameter&apos;&gt;test1417532203848&lt;/span&gt;</description>
+  </test-step>
+</acceptance-test-run>

@@ -1,0 +1,34 @@
+<acceptance-test-run title="Sign up as guest" name="sign_up_as_guest" steps="3" successful="1" failures="0" errors="1" skipped="1" ignored="0" pending="0" annotated-result="ERROR" result="ERROR" duration="31858" timestamp="2014-12-02T16:58:34.841+02:00">
+  <user-story id="Joust.requirements.Application.Search.SearchByKeyword" name="Search by keyword" path="Joust.requirements.Application.Search">
+    <feature id="Joust.requirements.Application.Search" name="Search"/>
+  </user-story>
+  <tags>
+    <tag name="Search" type="feature"/>
+    <tag name="Search by keyword" type="story"/>
+  </tags>
+  <test-step result="SUCCESS" duration="1295">
+    <screenshots>
+      <screenshot image="5925785fdeeb66d6e9f4852abdd43a9f_NONE.png"/>
+      <screenshot image="daf97f411981405af9a44637e0196068_NONE.png"/>
+    </screenshots>
+    <description>Is the sign up page</description>
+  </test-step>
+  <test-step result="ERROR" duration="30555">
+    <screenshots>
+      <screenshot image="ee87017e87ea7ec845514aed8652f3e0_NONE.png"/>
+    </screenshots>
+    <description>Signs up as guest</description>
+    <error>Expected enabled element was not enabled
+Build info: version: &apos;2.43.1&apos;, revision: &apos;5163bceef1bc36d43f3dc0b83c88998168a363a0&apos;, time: &apos;2014-09-10 09:43:55&apos;
+System info: host: &apos;zhanna-laptop&apos;, ip: &apos;10.1.7.222&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_25&apos;
+Driver info: driver.version: unknown</error>
+    <exception>org.openqa.selenium.ElementNotVisibleException:Expected enabled element was not enabled
+Build info: version: &apos;2.43.1&apos;, revision: &apos;5163bceef1bc36d43f3dc0b83c88998168a363a0&apos;, time: &apos;2014-09-10 09:43:55&apos;
+System info: host: &apos;zhanna-laptop&apos;, ip: &apos;10.1.7.222&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_25&apos;
+Driver info: driver.version: unknown&#xd;
+[com.sun.proxy.$Proxy18.click(Unknown Source), Joust.pages.SignUpPage.click_on_guest_mode_link(SignUpPage.java:52), Joust.steps.EndUserSteps.signs_up_as_guest(EndUserSteps.java:56), Joust.AuthorizationTest.sign_up_as_guest(AuthorizationTest.java:46)]</exception>
+  </test-step>
+  <test-step result="SKIPPED" duration="1">
+    <description>Should be logged in: &lt;span class=&apos;step-parameter&apos;&gt;Guest&lt;/span&gt;</description>
+  </test-step>
+</acceptance-test-run>

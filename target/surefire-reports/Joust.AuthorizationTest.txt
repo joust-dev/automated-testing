@@ -1,0 +1,52 @@
+-------------------------------------------------------------------------------
+Test set: Joust.AuthorizationTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 180.314 sec <<< FAILURE!
+sign_up_with_email(Joust.AuthorizationTest)  Time elapsed: 33.36 sec  <<< ERROR!
+org.openqa.selenium.TimeoutException: Timed out after 30 seconds waiting for net.thucydides.core.pages.WebElementFacadeImpl$4@24f360b2
+Build info: version: '2.43.1', revision: '5163bceef1bc36d43f3dc0b83c88998168a363a0', time: '2014-09-10 09:43:55'
+System info: host: 'zhanna-laptop', ip: '10.1.7.222', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_25'
+Driver info: driver.version: unknown
+Build info: version: '2.43.1', revision: '5163bceef1bc36d43f3dc0b83c88998168a363a0', time: '2014-09-10 09:43:55'
+System info: host: 'zhanna-laptop', ip: '10.1.7.222', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_25'
+Driver info: driver.version: unknown
+	at com.sun.proxy.$Proxy18.type(Unknown Source)
+	at Joust.pages.SignUpPage.enter_email(SignUpPage.java:75)
+	at Joust.steps.EndUserSteps.enters_users_credentials(EndUserSteps.java:78)
+	at Joust.AuthorizationTest.sign_up_with_email(AuthorizationTest.java:69)
+log_in_via_email(Joust.AuthorizationTest)  Time elapsed: 33.476 sec  <<< ERROR!
+org.openqa.selenium.TimeoutException: Timed out after 30 seconds waiting for net.thucydides.core.pages.WebElementFacadeImpl$4@2ca47471
+Build info: version: '2.43.1', revision: '5163bceef1bc36d43f3dc0b83c88998168a363a0', time: '2014-09-10 09:43:55'
+System info: host: 'zhanna-laptop', ip: '10.1.7.222', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_25'
+Driver info: driver.version: unknown
+Build info: version: '2.43.1', revision: '5163bceef1bc36d43f3dc0b83c88998168a363a0', time: '2014-09-10 09:43:55'
+System info: host: 'zhanna-laptop', ip: '10.1.7.222', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_25'
+Driver info: driver.version: unknown
+	at com.sun.proxy.$Proxy18.type(Unknown Source)
+	at Joust.pages.LoginPage.enter_username(LoginPage.java:33)
+	at Joust.steps.EndUserSteps.logs_in(EndUserSteps.java:31)
+	at Joust.AuthorizationTest.log_in_via_email(AuthorizationTest.java:38)
+sign_up_as_guest(Joust.AuthorizationTest)  Time elapsed: 31.87 sec  <<< ERROR!
+org.openqa.selenium.TimeoutException: Timed out after 30 seconds waiting for net.thucydides.core.pages.WebElementFacadeImpl$4@5bbc9f97
+Build info: version: '2.43.1', revision: '5163bceef1bc36d43f3dc0b83c88998168a363a0', time: '2014-09-10 09:43:55'
+System info: host: 'zhanna-laptop', ip: '10.1.7.222', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_25'
+Driver info: driver.version: unknown
+Build info: version: '2.43.1', revision: '5163bceef1bc36d43f3dc0b83c88998168a363a0', time: '2014-09-10 09:43:55'
+System info: host: 'zhanna-laptop', ip: '10.1.7.222', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_25'
+Driver info: driver.version: unknown
+	at com.sun.proxy.$Proxy18.click(Unknown Source)
+	at Joust.pages.SignUpPage.click_on_guest_mode_link(SignUpPage.java:52)
+	at Joust.steps.EndUserSteps.signs_up_as_guest(EndUserSteps.java:56)
+	at Joust.AuthorizationTest.sign_up_as_guest(AuthorizationTest.java:46)
+sign_up_via_fb_from_banner(Joust.AuthorizationTest)  Time elapsed: 33.143 sec  <<< ERROR!
+org.openqa.selenium.TimeoutException: Timed out after 30 seconds waiting for net.thucydides.core.pages.WebElementFacadeImpl$4@2c444798
+Build info: version: '2.43.1', revision: '5163bceef1bc36d43f3dc0b83c88998168a363a0', time: '2014-09-10 09:43:55'
+System info: host: 'zhanna-laptop', ip: '10.1.7.222', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_25'
+Driver info: driver.version: unknown
+Build info: version: '2.43.1', revision: '5163bceef1bc36d43f3dc0b83c88998168a363a0', time: '2014-09-10 09:43:55'
+System info: host: 'zhanna-laptop', ip: '10.1.7.222', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_25'
+Driver info: driver.version: unknown
+	at com.sun.proxy.$Proxy18.click(Unknown Source)
+	at Joust.pages.SignUpPage.click_on_guest_mode_link(SignUpPage.java:52)
+	at Joust.steps.EndUserSteps.signs_up_as_guest(EndUserSteps.java:56)
+	at Joust.AuthorizationTest.sign_up_via_fb_from_banner(AuthorizationTest.java:61)
