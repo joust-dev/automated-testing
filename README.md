@@ -2,9 +2,7 @@ Automated-Testing
 =================
 
 <h2>Selenium Automation Framework</h2>
-It extends the basic tutorial found on the Selenium Wiki
-(http://code.google.com/p/selenium/wiki/GettingStarted)
-http://code.google.com/p/selenium/wiki/PageObjects
+
 
 <h3>Environment Specifications:</h3>
 <ul>
