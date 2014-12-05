@@ -11,7 +11,7 @@ Automated-Testing
 <li><b>Maven</b></li>
 <li><b>Java JDK</b></li>
 <li><b>Firefox</b></li>
-JUnit
+<li><b>JUnit</b></li>
 </ul>
 <h4>This Framework has the following tools:</h4>
 
