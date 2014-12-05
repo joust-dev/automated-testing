@@ -11,7 +11,7 @@ Automated-Testing
 <li><b>Maven</b></li>
 <li><b>Java JDK</b></li>
 <li><b>Firefox</b></li>
-<li><b>JUnit</b></li>
+JUnit
 </ul>
 <h4>This Framework has the following tools:</h4>
 
@@ -32,11 +32,10 @@ Page Object is a Design Pattern which has become popular in test automation for 
 
 Thucydides takes WebDriver to the next level, making it easier to structure and organize your web tests using modular, reusable components. Thucydides is an exciting new open source library that lets you use Selenium 2/WebDriver to write more flexible and more reusable automated web tests, and also to generate documentation and reporting about your acceptance tests, including a narrative descriptions, screen shots, and project progress reports.
 
-
-
 <h3> Project structure <h3>
-
+----------------------------
   The project structure is following:
+
     - src
       - main
         - java
@@ -45,7 +44,7 @@ Thucydides takes WebDriver to the next level, making it easier to structure and 
             - other_resources
       - test
         - java
-          - cloudfinder
+          - Joust
             - requirements
             - steps
             *Tests.java
@@ -65,12 +64,13 @@ Thucydides takes WebDriver to the next level, making it easier to structure and 
  <h3> Run tests from command line </h3>
 
   For running a test suite install:
-    - Firefox
-    - Java 8 & maven (add those two to environment variables on you system)
-    - Checkout the project from GitHub
+  <ul>
+   <li> Firefox</li>
+    <li> Java 8 & maven (add those two to environment variables on you system)</li>
+    <li> Checkout the project from GitHub</li>
+</ul>
+  Then<br>Go to your project directory (pom.xml location) adn run a command:
 
-  Then you:
-    - Go to your project directory (pom.xml location) adn run a command:
       mvn clean test thucydides:aggregate
 
   In a few seconds you should see how Firefox browser is opened and tests are running.
