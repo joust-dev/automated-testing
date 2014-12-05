@@ -32,9 +32,10 @@ Page Object is a Design Pattern which has become popular in test automation for 
 
 Thucydides takes WebDriver to the next level, making it easier to structure and organize your web tests using modular, reusable components. Thucydides is an exciting new open source library that lets you use Selenium 2/WebDriver to write more flexible and more reusable automated web tests, and also to generate documentation and reporting about your acceptance tests, including a narrative descriptions, screen shots, and project progress reports.
 
-<h3> Project structure </h3> <br>
-  The project structure is following:
+ Project structure
+----------------------------
 
+  The project structure is following:
 
     - src
       - main
@@ -69,7 +70,7 @@ Thucydides takes WebDriver to the next level, making it easier to structure and 
     <li> Java 8 & maven (add those two to environment variables on you system)</li>
     <li> Checkout the project from GitHub</li>
 </ul>
-  Then: <br>Go to your project directory (pom.xml location) adn run a command:
+  Then<br>Go to your project directory (pom.xml location) adn run a command:
 
       mvn clean test thucydides:aggregate
 
