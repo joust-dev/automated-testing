@@ -31,3 +31,46 @@ Page Object is a Design Pattern which has become popular in test automation for 
 <b>Thucydides and Selenium WebDriver</b>
 
 Thucydides takes WebDriver to the next level, making it easier to structure and organize your web tests using modular, reusable components. Thucydides is an exciting new open source library that lets you use Selenium 2/WebDriver to write more flexible and more reusable automated web tests, and also to generate documentation and reporting about your acceptance tests, including a narrative descriptions, screen shots, and project progress reports.
+
+
+
+<h3> Project structure <h3>
+
+  The project structure is following:
+    - src
+      - main
+        - java
+          - Joust
+            - pages
+            - other_resources
+      - test
+        - java
+          - cloudfinder
+            - requirements
+            - steps
+            *Tests.java
+
+  In pages directory we store all page objects - classes with locators of all particular page elements and methods for interaction with those elements.
+
+  In other_resources directory we store some additional libs or classes which are not related directly to other directories. In Utils.java we have some frequently used methods which are not implemented in Selenium/Thucydides, but are extremely useful.
+
+  In requirements directory we have a classes for creating requirements and link them with tests. It's empty for now.
+
+  In steps folder we have classes with methods that are actually test user steps. Those steps are written based on *Page.java methods but are more user oriented.
+
+  All *Tests.java classes contain actually tests. Tests are based on step classes methods.
+
+  Since it's a maven project - all dependencies & configurations are specified in pom.xml document.
+
+ <h3> Run tests from command line </h3>
+
+  For running a test suite install:
+    - Firefox
+    - Java 8 & maven (add those two to environment variables on you system)
+    - Checkout the project from GitHub
+
+  Then you:
+    - Go to your project directory (pom.xml location) adn run a command:
+      mvn clean test thucydides:aggregate
+
+  In a few seconds you should see how Firefox browser is opened and tests are running.
