@@ -70,7 +70,7 @@ Thucydides takes WebDriver to the next level, making it easier to structure and 
     <li> Java 8 & maven (add those two to environment variables on you system)</li>
     <li> Checkout the project from GitHub</li>
 </ul>
-  Then<br>Go to your project directory (pom.xml location) adn run a command:
+  Then go to your project directory (pom.xml location) adn run a command:
 
       mvn clean test thucydides:aggregate
 
